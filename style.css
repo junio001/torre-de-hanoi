@@ -1,0 +1,269 @@
+html{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    height: 200px;
+    align-items: center;
+    height: 300px;
+    background-color: whitesmoke;
+    margin-bottom: 50px;
+    
+}
+p{
+    line-height: 1.8;
+}
+
+body{
+    height: 200px;
+    align-items: center;
+    height: 800px;
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center; 
+    font-size: 60px;   
+}
+
+h3{
+    margin-top: 40px;
+    text-align: center; 
+    font-size: 26px;   
+}
+
+h4{
+    color: black;
+    font-size: large
+    ;
+}
+
+#rules{
+    text-align: center;
+    
+    font-size: 25px; 
+    line-height: 15px;
+}
+
+#template{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    width: auto;
+    padding-top: 30px;
+}
+
+#dificuldade{
+    display: flex;
+    text-align: center;
+    font-size: 24px;
+}
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    
+} 
+button{
+    cursor: pointer;
+}
+
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#easy{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+#medium{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#hard{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+        
+}
+
+
+
+#reset{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aquamarine
+}
+
+
+#num-moves{
+    display: flex;
+    justify-content: center;
+    color: black;
+    
+}
+
+.tower1{
+    display: flex; 
+    flex-direction: column-reverse;
+    align-items: center;
+    border: whitesmoke 2px solid;
+    width: 20px;
+    height: 190px;
+    background-color: grey;
+    border-radius: 10px;
+    cursor: pointer
+}
+
+.tower2{
+    display: flex; 
+    flex-direction: column-reverse;
+    align-items: center;
+    border: whitesmoke 2px solid;
+    width: 20px;
+    height: 190px;
+    background-color: grey;
+    border-radius: 10px;
+    cursor: pointer
+}
+
+.tower3{
+    display: flex; 
+    flex-direction: column-reverse;
+    align-items: center;
+    border: whitesmoke 2px solid;
+    width: 20px;
+    height: 190px;
+    background-color: grey;
+    border-radius: 10px;
+    cursor: pointer
+}
+
+.disk1 {
+    border: 1px black solid;
+    background-color: wheat;
+    width: 150px;
+    height: 24px;
+    border-radius: 90px;
+}
+
+.disk2 {
+    border: 1px black solid;
+    background-color: wheat;
+    width: 120px;
+    height: 24px;
+    border-radius: 90px;
+}
+
+.disk3 {
+    border: 1px black solid;
+    background-color: wheat;
+    width: 90px;
+    height: 24px;
+    border-radius: 90px;
+}
+
+.disk4 {
+    border: 1px black solid;
+    background-color: wheat;
+    width: 60px;
+    height: 24px;
+    border-radius: 90px;
+}
+
+.disk5 {
+    border: 1px black solid;
+    background-color: wheat;
+    width: 30px;
+    height: 24px;
+    border-radius: 90px;
+}
+
+#message{
+    text-align: center;
+   font-size: 25px;
+    
+}
+
+@media ( min-width: 360px ) {
+    
+    header{
+        height: 200px;
+        align-items: center;
+        height: 300px;
+        background-color: whitesmoke;
+        margin-bottom: 200px;
+        
+    }
+
+    body{
+        height: 200px;
+        align-items: center;
+        height: 800px;
+        background-color: whitesmoke;
+    }
+    p{
+        line-height: 1.1;
+    }
+    h1{
+        text-align: center;    
+
+    }
+    #template{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        height: auto;
+        width: auto;
+        padding-top: 100px;
+    }
+
+    #dificuldade{
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+    }
+
+    #botoes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #facil{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #medio{
+        margin: 10px;
+        padding: 10px;
+    } 
+   
+    #reset{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #contador{
+        display: flex;
+        justify-content: center;
+
+    }
+
+}
